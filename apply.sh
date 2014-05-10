@@ -1,4 +1,5 @@
 #!/bin/sh
 
+git pull
 librarian-puppet update
-puppet apply init.pp
+puppet apply manifests/init.pp
