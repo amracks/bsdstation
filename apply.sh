@@ -2,4 +2,4 @@
 
 git pull
 librarian-puppet update
-puppet apply manifests/init.pp
+puppet apply --modulepath ./modules manifests/init.pp
