@@ -1,8 +1,2 @@
 
-class { 'workstation': }
-
-class { 'androidsdk':
-    devusr => 'amarks',
-    devgrp => 'amarks'
-}
-
+include 'fbsd-base'

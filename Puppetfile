@@ -1,9 +1,5 @@
 forge "http://forge.puppetlabs.com"
 
+mod "fbsd-base",
+    :git => "https://github.com/pmods/fbsd-base.git"
 
-mod "workstation",
-    :git => "git@git.amrx.net:puppet/workstation.git"
-
-
-mod "androidsdk",
-    :git => "git@git.amrx.net:puppet/androidsdk.git"
