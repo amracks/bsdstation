@@ -1,4 +1,4 @@
-forge "http://forge.puppetlabs.com"
+forge "http://forgeapi.puppetlabs.com"
 
 mod "pmods/fbsd-base",
     :git => "https://github.com/pmods/fbsd-base.git"
